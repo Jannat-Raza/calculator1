@@ -4,7 +4,7 @@ import streamlit as st
 st.markdown(
     """
     <style>
-    .main {
+    .stApp {
         background-color: lightblue;
     }
     </style>
