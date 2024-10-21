@@ -1,7 +1,21 @@
 import streamlit as st
 
+# Injecting custom CSS for background color
+st.markdown(
+    """
+    <style>
+    .main {
+        background-color: lightblue;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
 # Title of the app
 st.title("Simple Calculator")
+
+# Subtitle of the app
 st.subheader("Jannat Calculator")
 
 # Input fields for two numbers
