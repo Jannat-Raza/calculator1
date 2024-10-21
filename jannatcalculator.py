@@ -2,6 +2,7 @@ import streamlit as st
 
 # Title of the app
 st.title("Simple Calculator")
+st.subheader("Jannat Calculator")
 
 # Input fields for two numbers
 num1 = st.number_input("Enter first number", value=0.0)
